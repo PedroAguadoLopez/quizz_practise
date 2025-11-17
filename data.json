@@ -1,6 +1,6 @@
 [
     {
-        "question": "¿Quién es el máximo histórico goleador de La Liga?",
+        "question": "¿Quién es el máximo goleador histórico de La Liga?",
         "options": ["Cristiano Ronaldo","Lionel Messi","Hugo Sanchez","Alfreo Di Estéfano"],
         "answer" : 1
     },
@@ -36,7 +36,7 @@
     },
     {
         "question":"¿Cuál ha sido el resultado con más número de goles en un partido oficial?",
-        "options": ["Athletic Bilbao 9 - Racing de Santander 5","Athelic Bilbao 12 - F.C. Barcelona 1", "Sevilla 11 - Atlético de Aviación 2", "Real Oviedo 9 - RCD Español 4"],
+        "options": ["Athletic Bilbao 9 - Racing de Santander 5","Athletic Bilbao 12 - F.C. Barcelona 1", "Sevilla 11 - Atlético de Aviación 2", "Real Oviedo 9 - RCD Español 4"],
         "answer" : 0
     },
     {
