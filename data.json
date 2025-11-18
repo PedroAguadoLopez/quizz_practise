@@ -10,13 +10,13 @@
         "answer" : 2
     },
     {
-        "question": "¿Quién es el entrenador con más títulos de La Liga?",
+        "question": "¿Qué entrenador ha ganado mas títulos en La Liga?",
         "options": ["Miguel Muñoz","Pep Guardiola","Johan Cruyff","Carlo Ancelotti"],
-        "answer" : 3
+        "answer" : 0
     },
     {
         "question": "¿Cuál es el árbrito con mas partidos dirigidos en primera?",
-        "options": ["Mateu Lahoz","Undiano Mallenco","iturralde", "Martínez Munuera"],
+        "options": ["Mateu Lahoz","Undiano Mallenco","Iturralde", "Martínez Munuera"],
         "answer" : 1
     },
     {
@@ -41,7 +41,7 @@
     },
     {
         "question": "¿Quién fue el último pichichi español de La Liga?",
-        "options": ["David Villa","Joaquín Sánchez", "Dani Guiza", "David Silva"],
+        "options": ["David Villa","Joaquín Sánchez", "Dani Güiza", "David Silva"],
         "answer" : 2
     },
     {
