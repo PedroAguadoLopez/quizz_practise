@@ -96,5 +96,7 @@ restartBtn.addEventListener('click', () => {
     startQuiz();
 });
 
+const audio = document.getElementById('music');
+audio.volume = 0.1;
 
 loadQuestions();
