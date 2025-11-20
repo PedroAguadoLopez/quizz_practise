@@ -1,3 +1,8 @@
+document.addEventListener("click", () => {
+    const music = document.getElementById("music");
+    music.muted = false;
+});
+
 let questions = [];
 
 async function loadQuestions() {

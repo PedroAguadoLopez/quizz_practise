@@ -19,11 +19,30 @@ body {
     text-align: center;
 }
 
+audio {
+    display: none;
+}
+
 h1 {
     color: #000000;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     font-size: 50px;
+    font-family: "League Spartan", sans-serif;
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+
+}
+
+#logoliga {
+    width: 80px;
+    height: 80px;
+    margin-top: 25px;
+
+
 }
 
 .options {
