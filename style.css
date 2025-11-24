@@ -1,102 +1,104 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #0059ff34;
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    background-color: #2e8b57; 
+    background-image: url('images/istockphoto-472347896-612x612.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
-
+ 
 .container {
     max-width: 800px;
     width: 90%;
-    background: rgba(255, 255, 255, 0.836);
+    background: rgba(255, 255, 255, 0.9); 
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
     text-align: center;
 }
-
+ 
 audio {
     display: none;
 }
-
+ 
 h1 {
     color: #000000;
-    font-family: Georgia, 'Times New Roman', Times, serif;
     margin-bottom: 50px;
     font-size: 50px;
     font-family: "League Spartan", sans-serif;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
 }
-
+ 
 #logo {
     display: flex;
     justify-content: center;
-
 }
-
+ 
 #logoliga {
     width: 80px;
     height: 80px;
     margin-top: 25px;
-
-
 }
-
+ 
 .options {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 30px;
     margin: 20px 0;
-
 }
-
+ 
 button {
     padding: 10px 40px;
     border-radius: 10px;
     cursor: pointer;
     font-size: 30px;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s, transform 0.1s;
+    border: none; 
 }
-
+ 
 .options button {
     background-color: #00b7ffa8;
     color: rgb(255, 255, 255);
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
 }
-
+ 
 .options button:hover {
     background-color: #0056b3;
+    transform: translateY(-2px);
 }
-
+ 
 .options button.correct {
     background-color: #28a746;
 }
-
+ 
 .options button.incorrect {
     background-color: #dc3546;
 }
-
+ 
 .result {
     margin-top: 30px;
 }
-
+ 
 .final-score {
     margin-top: 20px;
-
 }
-
+ 
 .hidden {
     display: none;
 }
-
+ 
 @media (max-width: 768px) {
     .container {
         width: 95%;
         padding: 15px;
     }
-    
     button {
         font-size: 16px;
         padding: 8px 15px;

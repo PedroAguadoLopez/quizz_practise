@@ -3,6 +3,22 @@ document.addEventListener("click", () => {
     music.muted = false;
 });
 
+function enableAudio() {
+    const music = document.getElementById("music");
+
+    if (music.paused) { 
+        music.muted = false;
+        music.volume = 0.3;
+        music.play().catch(error => {
+            console.log("Audio play failed:", error);
+        });
+    }
+    document.removeEventListener("click", enableAudio);
+}
+
+document.addEventListener("click", enableAudio); 
+
+
 let questions = [];
 
 async function loadQuestions() {
@@ -15,7 +31,7 @@ async function loadQuestions() {
         startQuiz();
     } catch (error) {
         console.error('Error:', error);
-        alert('No se pudieron cargar las preguntas. Verifica que el archivo questions.json esté disponible.');
+        alert('No se pudieron cargar las preguntas. Verifica que el archivo data.json esté disponible.');
     }
 }
 
@@ -95,8 +111,5 @@ restartBtn.addEventListener('click', () => {
     document.getElementById('question-container').classList.remove('hidden');
     startQuiz();
 });
-
-const audio = document.getElementById('music');
-audio.volume = 0.1;
 
 loadQuestions();
