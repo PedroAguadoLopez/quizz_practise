@@ -48,5 +48,55 @@
         "question": "¿Quién es el jugador con más partidos en La Liga?",
         "options": ["Joaquín Sánchez", "Zubizarreta","Raúl González", "Xavi"],
         "answer" : 0
+    },
+    {
+        "question": "¿Qué club ha ganado el mayor número de títlos en La Liga?",
+        "options": ["Atlético de Madrid","Barcelona","Athelic Club","Real Madrid"],
+        "answer" : 3
+    },
+    {
+        "question": "¿Cuál es el nombre del trofeo que se otorga al máximo goleador de La Liga en una temporada?",
+        "options": ["Zamora","Di Stéfano","Zarra","Pichichi"],
+        "answer" : 3
+    },
+    {
+        "question": "¿Qué estadio es la sede del Cádiz C.F.?",
+        "options": ["La Rosaleda","Nuevo Mirandilla","Benito Villamarín","Metropolitano"],
+        "answer" : 1
+    },
+    {
+        "question": "¿En qué año se fundó el Campeonato Nacional de Liga de Primera División?",
+        "options": ["1929","1945","1902","1939"],
+        "answer" : 0
+    },
+    {
+        "question": "¿Qué club ganó la primera edición de La Liga en la temporada 1928-1929?",
+        "options": ["Bacelona","Athletic Club","Real Sociedad","Real Madrid"],
+        "answer" : 0
+    },
+    {
+        "question": "¿Cuál es el apodo por el que se conocen a los aficionados del Atlético de Madrid?",
+        "options": ["Los leones","Los pericos","Los colchoneros","Los culés"],
+        "answer" : 2
+    },
+    {
+        "question": "¿Qué club posee el récord de más puntos conseguidos en una sola temporada de La Liga (100 puntos)?",
+        "options": ["Real Madrid y Bacelona","Real Madrid","Atlético de Madrid","Barcelona"],
+        "answer" : 0
+    },
+    {
+        "question": "¿Qué equipo fue el ganador en la temporada 34-35?",
+        "options": ["Barcelona","Betis","Real Madrid","Deportivo de la Coruña"],
+        "answer" : 1
+    },
+    {
+        "question": "¿Cuántos equipos participan en primera división?",
+        "options": ["20","22","16","18"],
+        "answer" : 0
+    },
+    {
+        "question": "¿Qué club es conocido popularmente con el apodo de 'Submarino Amarillo'?",
+        "options": ["Cádiz","Las Palmas","Mallorca","villareal"],
+        "answer" : 3
     }
 ]

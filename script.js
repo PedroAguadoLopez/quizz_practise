@@ -1,14 +1,8 @@
-document.addEventListener("click", () => {
-    const music = document.getElementById("music");
-    music.muted = false;
-});
-
 function enableAudio() {
     const music = document.getElementById("music");
-
     if (music.paused) { 
         music.muted = false;
-        music.volume = 0.3;
+        music.volume = 0.3; 
         music.play().catch(error => {
             console.log("Audio play failed:", error);
         });
@@ -18,8 +12,15 @@ function enableAudio() {
 
 document.addEventListener("click", enableAudio); 
 
+let allQuestions = [];
+let questions = []; 
 
-let questions = [];
+function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+}
 
 async function loadQuestions() {
     try {
@@ -27,7 +28,7 @@ async function loadQuestions() {
         if (!response.ok) {
             throw new Error('Error al cargar el archivo JSON');
         }
-        questions = await response.json();
+        allQuestions = await response.json();
         startQuiz();
     } catch (error) {
         console.error('Error:', error);
@@ -48,6 +49,10 @@ const scoreTextEl = document.getElementById('score-text');
 const restartBtn = document.getElementById('restart-btn');
 
 function startQuiz() {
+    shuffleArray(allQuestions);
+    
+    questions = allQuestions.slice(0, 10); 
+    
     currentQuestionIndex = 0;
     score = 0;
     showQuestion();
@@ -109,7 +114,7 @@ function showFinalScore() {
 restartBtn.addEventListener('click', () => {
     finalScoreEl.classList.add('hidden');
     document.getElementById('question-container').classList.remove('hidden');
-    startQuiz();
+    startQuiz(); 
 });
 
 loadQuestions();
