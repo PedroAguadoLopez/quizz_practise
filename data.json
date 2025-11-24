@@ -50,7 +50,7 @@
         "answer" : 0
     },
     {
-        "question": "¿Qué club ha ganado el mayor número de títlos en La Liga?",
+        "question": "¿Qué club ha ganado el mayor número de títulos en La Liga?",
         "options": ["Atlético de Madrid","Barcelona","Athelic Club","Real Madrid"],
         "answer" : 3
     },
