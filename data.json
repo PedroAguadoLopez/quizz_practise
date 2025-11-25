@@ -96,7 +96,7 @@
     },
     {
         "question": "¿Qué club es conocido popularmente con el apodo de 'Submarino Amarillo'?",
-        "options": ["Cádiz","Las Palmas","Mallorca","villareal"],
+        "options": ["Cádiz","Las Palmas","Mallorca","Villareal"],
         "answer" : 3
     }
 ]

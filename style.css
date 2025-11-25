@@ -63,14 +63,14 @@ button {
 }
  
 .options button {
-    background-color: #00b7ffa8;
+    background-color: #c01c1ca8;
     color: rgb(255, 255, 255);
     font-weight: bold;
     box-shadow: 0 4px 6px rgba(0,0,0,0.2);
 }
  
 .options button:hover {
-    background-color: #0056b3;
+    background-color: #f33232a8;
     transform: translateY(-2px);
 }
  
